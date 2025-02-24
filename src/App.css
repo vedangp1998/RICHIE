@@ -1,0 +1,51 @@
+#root {
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.dotlayer {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/dots.png")
+    repeat;
+  z-index: 1; */
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: center;
+  z-index: -1000;
+}
+
+.line {
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+}
+
+.ellipse {
+  position: relative;
+  width: 357px;
+  height: 301px;
+  top: -340px;
+  left: 350px;
+  z-index: -200;
+}
+
+.dotLayerTwo {
+  width: 100%;
+  height: 900px;
+  position: relative;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: center;
+  z-index: -1000;
+}
