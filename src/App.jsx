@@ -57,7 +57,7 @@ const App = () => {
         backgroundPosition: "top center",
       }}
     >
-      <div className="w-full flex items-center justify-between pt-8 px-12">
+      <div className="w-full flex items-center justify-between pt-8 px-6 md:px-12 gap-x-4">
         <img src={Logo} alt="Logo" className="w-[120px] md:w-auto" />
         <button className="bg-[#48BF84] w-[171px] h-[36px] rounded-[20px] border-1 font-[700]">
           Get My Free Plan
